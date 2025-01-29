@@ -84,3 +84,30 @@ FROM Market m
 WHERE m.m_quarter = 2
 ORDER BY Price_Change DESC
 LIMIT 10;
+
+/* Verify dependencies */
+SELECT
+	S.ticker, 
+    S.stock_ID, 
+    M.record, 
+    M.m_quarter, 
+    M.m_open, 
+    M.m_close,
+    M.next_weeks_open,
+    M.next_weeks_close,
+    M.high, 
+    M.low, 
+    M.volume, 
+    M.previous_weeks_volume,
+    F.percent_change_volume_over_last_wk,
+    F.percent_change_next_weeks_price,
+    F.days_to_next_dividend, 
+    F.percent_return_next_dividend
+FROM Stock S
+LEFT JOIN 
+    Market M ON S.ticker = M.ticker
+LEFT JOIN 
+    Factors F ON S.ticker = F.ticker AND M.record = F.record
+ORDER BY 
+    M.record DESC; 
+-- The query results can also be exported as a CSV file for use in ML analysis
