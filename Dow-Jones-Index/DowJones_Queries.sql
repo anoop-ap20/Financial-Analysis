@@ -87,7 +87,7 @@ LIMIT 10;
 
 /* Verify dependencies */
 SELECT
-	S.ticker, 
+    S.ticker, 
     S.stock_ID, 
     M.record, 
     M.m_quarter, 
@@ -111,3 +111,6 @@ LEFT JOIN
 ORDER BY 
     M.record DESC; 
 -- The query results can also be exported as a CSV file for use in ML analysis
+
+-- Thank You for sticking around till the end! 
+-- If any of these queries runs forever, blame the joins... not me. HeHe.
