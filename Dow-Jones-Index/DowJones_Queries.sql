@@ -110,7 +110,7 @@ LEFT JOIN
     Factors F ON S.ticker = F.ticker AND M.record = F.record
 ORDER BY 
     M.record DESC; 
--- The query results can also be exported as a CSV file for use in ML analysis
+-- This query results can also be exported as a CSV file for use in ML analysis and have been
 
--- Thank You for sticking around till the end! 
--- If any of these queries runs forever, blame the joins... not me. HeHe.
+-- Thank You for sticking around till the end!
+-- If any of these queries runs forever, blame the JOINS... not me. HeHe. 😆
