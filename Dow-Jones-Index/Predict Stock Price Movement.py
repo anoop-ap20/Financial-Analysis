@@ -7,10 +7,7 @@ from sklearn.metrics import classification_report, accuracy_score
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
-# Step 1: Load the dataset
 df = pd.read_csv('dow_jones_index_ml.csv')
-
-# Step 2: Preprocessing the dataset
 # Remove the dollar sign and convert to numeric for relevant columns
 monetary_columns = ['open', 'high', 'low', 'close', 'next_weeks_open', 'next_weeks_close']
 for col in monetary_columns:
