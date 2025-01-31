@@ -75,3 +75,5 @@ nn_report = classification_report(y_test, nn_preds)
 
 print(f"Neural Network Accuracy: {nn_accuracy:.2f}")
 print("\nNeural Network Report:\n", nn_report)
+
+#This workflow helps determine which model is best suited for stock movement prediction.
