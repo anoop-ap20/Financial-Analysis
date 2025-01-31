@@ -1,6 +1,6 @@
 # Financial-Analysis
 
-Dow Jones Index Analysis: Data Analytics and ML Project
+Dow Jones Index Analysis: Data Analytics and ML Project [🔗](Dow-Jones-Index)
 - Developed a data analysis pipeline for stock market insights using **MySQL for database creation** and complex SQL queries for automated ETL workflows, including data extraction, transformation, and loading.
 - Performed data cleaning, normalization, and validation to ensure datasets.
 - Built **predictive models (Logistic Regression, Random Forest, Neural Networks)** to classify stock trends with high accuracy. 
@@ -8,7 +8,7 @@ Dow Jones Index Analysis: Data Analytics and ML Project
 
 #
 
-Portfolio Optimization and Analysis
+Portfolio Optimization and Analysis [🔗](https://github.com/anoop-ap20/Financial-Analysis/tree/54316826796fc333429a01cbeaf3a016f2822974/Portfolio%20Optimization%20and%20Analysis)
 - Analysed and compared the performance of an **optimal portfolio, S&P500, and risk-free investment** to study risk-return trade off.
-- Applied Markowitz Portfolio Theory to optimize asset allocation and evaluated performance using Sharpe ratio and historical trends.
+- Applied **Markowitz Portfolio Theory** to optimize asset allocation and evaluated performance using Sharpe ratio and historical trends.
 - Utilized Excel functions such as **PIVOT TABLES, MMULT, nested IF-AND/OR, and INDEX-MATCH** for scenario analysis. 
