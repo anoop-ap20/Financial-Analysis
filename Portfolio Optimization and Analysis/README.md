@@ -12,9 +12,9 @@ Analyzed and compared the performance of an optimal portfolio, S&P 500, and a ri
 
   ![Portfolio Selection](https://github.com/anoop-ap20/Financial-Analysis/blob/a8404e454c3fbf6a8441de812525c999a4e5efd8/Portfolio%20Optimization%20and%20Analysis/PNGs/Stock%20Weightage.png)
    
-5. *Short Selling Constraint*: Ensured no short selling by adjusting weight allocations. [Sheet: My Portfolio](https://github.com/anoop-ap20/Financial-Analysis/blob/15e18ebfff0e76b77769280459cf6410d985f991/Portfolio%20Optimization%20and%20Analysis/Portfolio%20Optimization%20and%20Analysis.xlsx)
-6. *Backtesting*: Used historical data for optimization and tested performance on recent 3-week data. [Sheet: Value at Risk](https://github.com/anoop-ap20/Financial-Analysis/blob/15e18ebfff0e76b77769280459cf6410d985f991/Portfolio%20Optimization%20and%20Analysis/Portfolio%20Optimization%20and%20Analysis.xlsx)
-7. *Comparison*: Compared a $1,000,000 investment in the Optimal Portfolio vs. S&P 500 vs. Risk-Free Portfolio.
+4. *Short Selling Constraint*: Ensured no short selling by adjusting weight allocations. [Sheet: My Portfolio](https://github.com/anoop-ap20/Financial-Analysis/blob/15e18ebfff0e76b77769280459cf6410d985f991/Portfolio%20Optimization%20and%20Analysis/Portfolio%20Optimization%20and%20Analysis.xlsx)
+5. *Backtesting*: Used historical data for optimization and tested performance on recent 3-week data. [Sheet: Value at Risk](https://github.com/anoop-ap20/Financial-Analysis/blob/15e18ebfff0e76b77769280459cf6410d985f991/Portfolio%20Optimization%20and%20Analysis/Portfolio%20Optimization%20and%20Analysis.xlsx)
+6. *Comparison*: Compared a $1,000,000 investment in the Optimal Portfolio vs. S&P 500 vs. Risk-Free Portfolio.
 
 ![Portfolio Comparison Chart](https://github.com/anoop-ap20/Financial-Analysis/blob/a8404e454c3fbf6a8441de812525c999a4e5efd8/Portfolio%20Optimization%20and%20Analysis/PNGs/Portfolio%20Comparison%20Chart.png)
 
