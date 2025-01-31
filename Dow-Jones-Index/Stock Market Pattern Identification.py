@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import DBSCAN
 from sklearn.metrics import calinski_harabasz_score, davies_bouldin_score, silhouette_score
 
-X = pd.read_csv("dow_jones_index_update_ml.csv")
+X = pd.read_csv("dow_jones_index_ml.csv")
 X.head()
 
 X = X.select_dtypes(include=[np.number])  # Keep only numeric columns
